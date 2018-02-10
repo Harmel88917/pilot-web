@@ -50,7 +50,7 @@
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4"><font color="#007bff"><center>Welcome our Services</center></font></h1>
+      <h1 class="my-4"><font color="#007bff"><center>Welcome to Captain Jouvain</center></font></h1>
 
       <!-- Marketing Icons Section -->
       <div class="row">
@@ -70,9 +70,9 @@
             <h4 class="card-header">Bitoyo</h4>
             <div class="card-body">
               <p class="card-text">
-			  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, 
-			  nam perspiciatis natus commodi similique totam consectetur praesentium molestiae 
-			  atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+      			  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, 
+      			  nam perspiciatis natus commodi similique totam consectetur praesentium molestiae 
+      			  atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
             </div>
             <div class="card-footer">
               <a href="#" class="btn btn-primary">Learn More</a>
@@ -95,17 +95,15 @@
 
       <!-- Features Section -->
 		<div class="row">
-			<div class="col-lg-6"><br/><br/>
-			  <h2><font size="" color="#007bff">Captain Jay</font></h2>
-			  <strong><abbr title="Vision">Vision:</abbr></strong>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, 
-			  omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora 
-			  minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+			<div class="col-lg-6">
+			  <h2><font size="" color="#007bff"></font></h2>
+			  <strong><abbr title="Vision"><font size="4" color="#007bff">Vision:</font></abbr></strong>
+			  <p><font size="4" color="#007bff">*</font> To keep the flame burning within us & to stand firm for what we believe into.<br/>
+        <font size="4" color="#007bff">*</font> To impact lives ( from all ages ) through what we face as we are growing our wings on your way higher<br />
+        <font size="4" color="#007bff">*</font> To promote the appreciation of diversity in the way we are singularly gifted and rise up possibilities of achieving dreams ...</p>
 			
-			  <strong><abbr title="Mission">Mission:</abbr></strong>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, 
-			  omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora 
-			  minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+			  <strong><abbr title="Mission"><font size="4" color="#007bff">Mission:</font></abbr></strong>
+			  <p> This website mainly focuses on the aviation industry. It has purpose of raising awareness of the minimun labour in this industry. It aims to impact people and change lives across the globe. We also aspirento serve and empower our community to bring about the change we want to see around us and help one another reach greatness.</p>
 			</div>
 			<div class="col-lg-6">
 			  <img class="img-fluid rounded" src="img/boein0.png" alt="">

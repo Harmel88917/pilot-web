@@ -20,8 +20,8 @@
     <!-- Custom styles-->
     <link href="css/modern-business.css" rel="stylesheet">
 	<link href="css/jaay.css" rel="stylesheet">
-	<style>
-	i {
+    <style>
+    i {
     font-size : 12px;
     padding-right: 10px;
     color: #007bff;
@@ -133,9 +133,7 @@
      color: #f39c12;
      transition:all .25s;
  }
- 
-
-	</style>
+    </style>
 			
   </head>
 
@@ -164,7 +162,7 @@
 				<!-- Login form starts here -->
 				<li class="dropdown">
 				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				  Login and Register<span class="caret"></span></a>
+				  Login<span class="caret"></span></a>
 				  <ul class="dropdown-menu login-panel">
 					<li>
 						<div class="dropdown-header ">
@@ -201,6 +199,47 @@
 				  </ul>
 				</li>
 				<!-- login form ends here-->
+
+				<!-- Register form starts here -->
+				<li class="dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Register<span class="caret"></span></a>
+				  <ul class="dropdown-menu login-panel">
+					<li>
+						<div class="dropdown-header ">
+							<span class="login-header color-blue">Log In</span>
+							 
+						</div>
+						<div class="clearfix"></div>
+						<div style="padding: 8px;">
+							<form id="loginform" action="index.php" role="form"  method="POST">
+								<?php echo display_error(); ?>
+								<div style="margin-bottom: 10px" class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user color-blue"></i></span>
+									<!-- USERNAME OR EMAIL ADDRESS -->
+									<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email" pattern="[a-zA-Z0-9]{5,}" title="Minimum 5 letters or numbers." oninvalid="this.setCustomValidity('Enter User Name Here')" oninput="setCustomValidity('')" required>                                        
+								</div>
+								<div style="margin-bottom: 10px" class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
+									<!--  PASSWORD  -->
+									<input id="login-password" type="password" class="form-control" name="password" placeholder="password" pattern=".{5,}" title="Minmimum 5 letters or numbers." oninvalid="this.setCustomValidity('Enter a password')" oninput="setCustomValidity('')" required>
+								</div>
+								<div class="left-text">
+									<label><input id="login-remember" type="checkbox" name="remember" value="1"> Remember me</label>
+								</div>
+								<div style="margin-top:10px" class="form-group">
+									<!-- Button -->
+									<div class="left-text">
+									  <button type="submit" class="btn btn-primary" name="login_btn">Login</button><br/><br/>  
+									  &nbsp; Not yet a member click <a href="register.php"> Register</a>
+									</div>
+								</div>  
+							</form>
+						</div>                
+					</li>
+				  </ul>
+				</li>
+				<!-- Register form ends here-->
 				
 				<li class="nav-item">
 					<a class="nav-link" href="contact.php">Contact</a>

@@ -8,29 +8,31 @@
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">
-        <h1 class="mt-4 mb-3"><font size="" color="#007bff">About <small>Captain Jay</small></font></h1>
+        <h1 class="mt-4 mb-3"><font size="" color="#007bff">About <small>Us</small></font></h1>
       </h1>
 
       <!-- Intro Content -->
       <div class="row">
         <div class="col-lg-6">
-          <img class="img-fluid rounded mb-4" src="img/boeing4..jpg" alt="Captain Jay">
+          <img class="img-fluid rounded mb-4" src="img/boeing9.jpeg" alt="Captain Jay">
         </div>
         <div class="col-lg-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+          
+          <p> Basically I am <b>JOUVAIN KAPUTU TSHIENDA</b> as my full familly name but know as Jay or Joe by so many. I am a young man passionated by the aviation field , particularly in piloting , so far I am <b>ppl holder</b> , and I am on my way to get my commercial licence , so I am pursuing my childhood dream which was so clear to me at very early age , to become an airline pilot.</p>
+
+          <p> I am on the move fulfilling my goals and I believe I will achieve my highest desire specially given to me compare to most fields among friends and family , and here I wanna take pleasure in sharing the flame that burns and gives me thirst regarding aviation industry...</p>
+
         </div>
       </div>
       <!-- /.row -->
 
       <!-- Team Members -->
-      <h2>Our Team</h2>
+      <h2><font size="" color="#007bff">Our Team</font></h2>
 
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="img/boeing4..jpg" alt="">
+            <img class="card-img-top" src="img/boeing9.jpeg" alt="">
             <div class="card-body">
               <h4 class="card-title">Team Member</h4>
               <h6 class="card-subtitle mb-2 text-muted">Position</h6>
@@ -43,7 +45,7 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="img/boeing4..jpg" alt="">
+            <img class="card-img-top" src="img/boeing9.jpeg" alt="">
             <div class="card-body">
               <h4 class="card-title">Team Member</h4>
               <h6 class="card-subtitle mb-2 text-muted">Position</h6>
@@ -56,7 +58,7 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="img/boeing4..jpg" alt="">
+            <img class="card-img-top" src="img/boeing9.jpeg" alt="">
             <div class="card-body">
               <h4 class="card-title">Team Member</h4>
               <h6 class="card-subtitle mb-2 text-muted">Position</h6>

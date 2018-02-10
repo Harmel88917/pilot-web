@@ -31,6 +31,7 @@
 		    <div class="col-md-2 footer-three">
 		       <h5>Other Links</h5>
 		          <ul>
+		          	<li><a href="portfolio.php">Portfolio</a> </li>
 					<li><a href="#"> Privacy</a> </li>
                     <li><a href="#"> Terms & Conditions</a> </li>
                     <li><a href="#">Refund Policy</a> </li>
@@ -60,7 +61,7 @@
 				</div> <!-- End Col -->
 				<div class="col-sm-6  ">
 					<div class="copyright-text pull-right">
-						<p>Developed and designed by <a href="www.gmail.com" target="blanc">harmelngongo@gmail.com</a> +254-717-716-291 </p>
+						<p><font size="2">Developed by <a href="www.gmail.com" target="blanc">harmelngongo@gmail.com</a> +254-717-716-291 </font></p>
 					</div>					
 				</div> <!-- End Col -->
 			</div>
