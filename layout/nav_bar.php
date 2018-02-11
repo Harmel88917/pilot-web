@@ -165,7 +165,7 @@
 				  Login<span class="caret"></span></a>
 				  <ul class="dropdown-menu login-panel">
 					<li>
-						<div class="dropdown-header ">
+						<div class="dropdown-header center-text">
 							<span class="login-header color-blue">Log In</span>
 							 
 						</div>
@@ -188,10 +188,9 @@
 								</div>
 								<div style="margin-top:10px" class="form-group">
 									<!-- Button -->
-									<div class="left-text">
+									<div class="center-text">
 									  <button type="submit" class="btn btn-primary" name="login_btn">Login</button><br/><br/>  
-									  &nbsp; Not yet a member click <a href="register.php"> Register</a>
-									</div>
+									<div>
 								</div>  
 							</form>
 						</div>                
@@ -206,8 +205,8 @@
 				  Register<span class="caret"></span></a>
 				  <ul class="dropdown-menu login-panel">
 					<li>
-						<div class="dropdown-header ">
-							<span class="login-header color-blue">Log In</span>
+						<div class="dropdown-header center-text ">
+							<span class="login-header color-blue">Register</span>
 							 
 						</div>
 						<div class="clearfix"></div>
@@ -216,22 +215,28 @@
 								<?php echo display_error(); ?>
 								<div style="margin-bottom: 10px" class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-user color-blue"></i></span>
-									<!-- USERNAME OR EMAIL ADDRESS -->
-									<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email" pattern="[a-zA-Z0-9]{5,}" title="Minimum 5 letters or numbers." oninvalid="this.setCustomValidity('Enter User Name Here')" oninput="setCustomValidity('')" required>                                        
+									<!-- USERNAME  -->
+									<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username " pattern="[a-zA-Z0-9]{5,}" title="" oninvalid="this.setCustomValidity('EnterName Here')" oninput="setCustomValidity('')" required>                                        
+								</div>
+								<div style="margin-bottom: 10px" class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user color-blue"></i></span>
+									<!-- Email -->
+									<input id="login-emain" type="text" class="form-control" name="email" value="" placeholder="email" pattern="[a-zA-Z0-9]{5,}" title="" oninvalid="this.setCustomValidity('Enter your email here')" oninput="setCustomValidity('')" required>                                        
 								</div>
 								<div style="margin-bottom: 10px" class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
 									<!--  PASSWORD  -->
-									<input id="login-password" type="password" class="form-control" name="password" placeholder="password" pattern=".{5,}" title="Minmimum 5 letters or numbers." oninvalid="this.setCustomValidity('Enter a password')" oninput="setCustomValidity('')" required>
+									<input id="login-password" type="password" class="form-control" name="password" placeholder="password" pattern=".{5,}" title="" oninvalid="this.setCustomValidity('Enter a password')" oninput="setCustomValidity('')" required>
 								</div>
-								<div class="left-text">
-									<label><input id="login-remember" type="checkbox" name="remember" value="1"> Remember me</label>
+								<div style="margin-bottom: 10px" class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
+									<!--  CONFIRM-PASSWORD  -->
+									<input id="login-password" type="password" class="form-control" name="password" placeholder="password" pattern=".{5,}" title="Minmimum 5 letters or numbers." oninvalid="this.setCustomValidity('confirm your password')" oninput="setCustomValidity('')" required>
 								</div>
 								<div style="margin-top:10px" class="form-group">
 									<!-- Button -->
-									<div class="left-text">
-									  <button type="submit" class="btn btn-primary" name="login_btn">Login</button><br/><br/>  
-									  &nbsp; Not yet a member click <a href="register.php"> Register</a>
+									<div class="center-text">
+									  <button type="submit" class="btn btn-primary" name="login_btn">Register</button><br/><br/>  
 									</div>
 								</div>  
 							</form>
