@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CapJ|Home</title>
+    <title>Cap J</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 /* Footer */
 .footer {
     position: relative;
-    background-color: #092746;
+    background-color: #000000;
     color: #fff;
     padding: 95px 0 50px;
     font-size:16px;
@@ -82,7 +82,7 @@
     padding-top: 10px;
     padding-bottom: 25px;
     border-top: 1px solid #2f2f33 ;
-    background: #1e1d22  ;
+    background: #000000  ;
     
 }
 .copyright-text p {
@@ -140,9 +140,10 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav class="navbar fixed-top navbar-expand-lg navbar- bg-white fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.php"><img src="img/logo/capture.png"></a>
+        <a class="navbar-brand" href="index.php">
+        <h3 ><font face = "Bernard MT Condensed" color="#007bff">CAPTAIN JOUVAIN</font></h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
 		aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -215,28 +216,24 @@
 								<?php echo display_error(); ?>
 								<div style="margin-bottom: 10px" class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-user color-blue"></i></span>
-									<!-- USERNAME  -->
-									<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username " pattern="[a-zA-Z0-9]{5,}" title="" oninvalid="this.setCustomValidity('EnterName Here')" oninput="setCustomValidity('')" required>                                        
+									<input class="form-control" type="text" name="username" placeholder="Username" value="<?php echo $username; ?>">                                       
 								</div>
 								<div style="margin-bottom: 10px" class="input-group">
-									<span class="input-group-addon"><i class="glyphicon glyphicon-user color-blue"></i></span>
-									<!-- Email -->
-									<input id="login-emain" type="text" class="form-control" name="email" value="" placeholder="email" pattern="[a-zA-Z0-9]{5,}" title="" oninvalid="this.setCustomValidity('Enter your email here')" oninput="setCustomValidity('')" required>                                        
-								</div>
-								<div style="margin-bottom: 10px" class="input-group">
-									<span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
-									<!--  PASSWORD  -->
-									<input id="login-password" type="password" class="form-control" name="password" placeholder="password" pattern=".{5,}" title="" oninvalid="this.setCustomValidity('Enter a password')" oninput="setCustomValidity('')" required>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-envelop color-blue"></i></span>
+									<input class="form-control" type="email" name="email" placeholder="Email" value="<?php echo $email; ?>">                          
 								</div>
 								<div style="margin-bottom: 10px" class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
-									<!--  CONFIRM-PASSWORD  -->
-									<input id="login-password" type="password" class="form-control" name="password" placeholder="password" pattern=".{5,}" title="Minmimum 5 letters or numbers." oninvalid="this.setCustomValidity('confirm your password')" oninput="setCustomValidity('')" required>
+									<input class="form-control" type="password" placeholder="Password" name="password_1">
+								</div>
+								<div style="margin-bottom: 10px" class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
+									<input class="form-control" type="password" placeholder="Confirm password" name="password_2">
 								</div>
 								<div style="margin-top:10px" class="form-group">
 									<!-- Button -->
 									<div class="center-text">
-									  <button type="submit" class="btn btn-primary" name="login_btn">Register</button><br/><br/>  
+									  <button type="submit" class="btn btn-primary" name="register_btn">Register</button><br/><br/>  
 									</div>
 								</div>  
 							</form>

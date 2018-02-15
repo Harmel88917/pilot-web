@@ -50,47 +50,29 @@
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4"><font color="#007bff"><center>Welcome to Captain Jouvain</center></font></h1>
+      <h1 class="my-4"><font face = "Georgia" color="#007bff"><center>Welcome to <u>Captain Jouvain</u></center></font></h1>
 
       <!-- Marketing Icons Section -->
       <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Kikanda</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Bitoyo</h4>
-            <div class="card-body">
-              <p class="card-text">
-      			  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, 
-      			  nam perspiciatis natus commodi similique totam consectetur praesentium molestiae 
-      			  atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Binkubala</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/news-1.jpg" alt="Generic placeholder image" width="200" height="200" data-square="19600">
+          <h2><font face = "Georgia" color = "#007bff">Roadway Freight</font></h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="https://getbootstrap.com/docs/3.3/examples/carousel/#" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/news-2.jpg" alt="Generic placeholder image" width="200" height="200" data-square="19600">
+          <h2><font face = "Georgia" color = "#007bff">Air Freight</font></h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="https://getbootstrap.com/docs/3.3/examples/carousel/#" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/news-4.jpg" alt="Generic placeholder image" width="200" height="200" data-square="19600">
+          <h2><font face = "Georgia" color = "#007bff">Ocean Freight</font></h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="https://getbootstrap.com/docs/3.3/examples/carousel/#" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
       <!-- /.row -->
 
       <!-- Features Section -->

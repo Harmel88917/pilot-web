@@ -35,13 +35,13 @@
     
     </div>
       <!-- Page Heading/Breadcrumbs -->
-      <h1><font size="" color="#007bff">Contact <small>Us</small></font></h1>
+      <h1><font size="" face = "Georgia" color="#007bff"><center>Contact <small><u>Us</u></small></center></font></h1>
 
       <!-- Contact Form -->
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
       <div class="row">
         <div class="col-lg-12 mb-4">
-			<p> Contact me today, and get reply with in 24 hours!</p>
+			<p><center>Contact me today, and get reply with in 24 hours!</center></p>
 			<form action = "sql/contact_con.php" method = "POST">
 				<div class="form-group col-lg-12">
 					<div id="success">

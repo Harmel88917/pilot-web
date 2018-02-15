@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>Gallery</title>
+    <title>Cap J</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/port.css" rel="stylesheet">
@@ -14,14 +14,14 @@
  <div class="container">
         <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="gallery-title">Gallery</h1>
+            <h1 class="gallery-title"><font face = "Georgia" color="#007bff">Gallery</font></h1>
         </div>
 
         <div align="center">
             <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">What we are selling</button>
             <button class="btn btn-default filter-button" data-filter="hdpe">In the Airport</button>
             <button class="btn btn-default filter-button" data-filter="sprinkle">In the Airplain</button>
-            <button class="btn btn-default filter-button" data-filter="irrigation">Aiplain views</button>
             <button class="btn btn-default filter-button" data-filter="spray">In town</button>
             <a href="index.php"><button class="btn btn-primary filter-button"><font color="white">GO BACK</font></button></a> 
         </div>
@@ -115,6 +115,10 @@
         </div>
     </div>
 </section>
+
+ <!-- Footer
+    ================================================== -->
+    <?php include("layout/footer.php"); ?>
 
 <script>
 $(document).ready(function(){

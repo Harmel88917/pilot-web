@@ -8,7 +8,7 @@
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">
-        <h1 class="mt-4 mb-3"><font size="" color="#007bff">About <small>Us</small></font></h1>
+        <h1 class="mt-4 mb-3"><font size="" face = "Georgia" color="#007bff"><center>About <small><u>Us</u></small></center></font></h1>
       </h1>
 
       <!-- Intro Content -->
@@ -21,13 +21,13 @@
           <p> Basically I am <b>JOUVAIN KAPUTU TSHIENDA</b> as my full familly name but know as Jay or Joe by so many. I am a young man passionated by the aviation field , particularly in piloting , so far I am <b>ppl holder</b> , and I am on my way to get my commercial licence , so I am pursuing my childhood dream which was so clear to me at very early age , to become an airline pilot.</p>
 
           <p> I am on the move fulfilling my goals and I believe I will achieve my highest desire specially given to me compare to most fields among friends and family , and here I wanna take pleasure in sharing the flame that burns and gives me thirst regarding aviation industry...</p>
-
+          <p><a href="www.gmail.com" target="blanc">jouvka@gmail.com</a></p>
         </div>
       </div>
       <!-- /.row -->
 
       <!-- Team Members -->
-      <h2><font size="" color="#007bff">Our Team</font></h2>
+      <h2><font size="" face = "Georgia" color="#007bff">Our <u>Team</u></font></h2>
 
       <div class="row">
         <div class="col-lg-4 mb-4">
@@ -39,7 +39,7 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <a href="#">kezai-rebz@yahoo.com</a>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <a href="#">fraziasparkle@hotmail.com</a>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
             </div>
             <div class="card-footer">
-              <a href="#">name@example.com</a>
+              <a href="#">harmelngongo@gmail.com</a>
             </div>
           </div>
         </div>
